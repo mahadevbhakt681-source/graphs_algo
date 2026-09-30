@@ -16,5 +16,5 @@ class Solution:
                     temp_prices[v] = prices[u] + w
                     
             prices = temp_prices
-
+            print(1)
         return prices[dst] if prices[dst] != float('inf') else -1
